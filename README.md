@@ -22,17 +22,19 @@ internet connectivity, and a recovery snapshot.
 -   Create a baseline virtual-machine snapshot.
 -   Capture screenshots documenting the completed setup.
 
+
 ## Lab Environment
 
-  Component                 Configuration
-  ------------------------- --------------------------------------------
-  Virtualization platform   Oracle VirtualBox
-  Guest operating system    Kali Linux 2026.2
-  Virtual network           `NatNetwork`
-  Network type              NAT Network
-  IPv4 network              `10.0.0.0/24`
-  DHCP                      Enabled in VirtualBox
-  Kali Linux role           Penetration-testing / security lab machine
+| Component | Configuration |
+|---|---|
+| Virtualization Platform | Oracle VirtualBox |
+| Guest Operating System | Kali Linux 2026.2 |
+| Virtual Network | `NatNetwork` |
+| Network Type | NAT Network |
+| IPv4 Network | `10.0.0.0/24` |
+| DHCP | Enabled |
+| Lab Machine Role | Penetration-testing machine |
+
 
 > **Network note:** The VirtualBox NAT Network configuration is shown in
 > the screenshots. Record the Kali VM's actual IP address, gateway, and
