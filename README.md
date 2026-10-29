@@ -103,32 +103,40 @@ Nmap installation was part of the planned checks; include its version
 output or a screenshot if you want to document that verification
 explicitly.
 
+
 ## Screenshots
 
-Add your screenshots to the repository (for example, in a folder named
-`screenshots/`) and link them below. Replace the filenames with the
-names you upload.
+### 1. Kali Linux Desktop
 
-  -----------------------------------------------------------------------------
-  Screenshot                                What it demonstrates
-  ----------------------------------------- -----------------------------------
-  `screenshots/kali-desktop.png`            Kali Linux desktop running
+Kali Linux running inside Oracle VirtualBox.
 
-  `screenshots/internet-connectivity.png`   Firefox accessing Google from Kali
-                                            Linux
+<p align="center">
+  <img src="kali-desktop.png" alt="Kali Linux desktop" width="800">
+</p>
 
-  `screenshots/nat-network.png`             `NatNetwork`, IPv4 prefix
-                                            `10.0.0.0/24`, and DHCP enabled
+### 2. Internet Connectivity
 
-  `screenshots/baseline-snapshot.png`       VirtualBox snapshot named
-                                            `MY FRESH KALI LINUX`
-  -----------------------------------------------------------------------------
+Firefox accessing Google from Kali Linux.
 
-Example Markdown image link:
+<p align="center">
+  <img src="internet-connectivity.png" alt="Kali Linux internet connectivity" width="800">
+</p>
 
-``` markdown
-![VirtualBox NAT Network configuration](screenshots/nat-network.png)
-```
+### 3. NAT Network Configuration
+
+VirtualBox NAT Network configured with the `10.0.0.0/24` IPv4 prefix and DHCP enabled.
+
+<p align="center">
+  <img src="nat-network.png" alt="VirtualBox NAT Network configuration" width="800">
+</p>
+
+### 4. Baseline Snapshot
+
+VirtualBox snapshot named `MY FRESH KALI LINUX`.
+
+<p align="center">
+  <img src="baseline-snapshot.png" alt="Kali Linux baseline snapshot" width="800">
+</p>
 
 ## What I Learned
 
